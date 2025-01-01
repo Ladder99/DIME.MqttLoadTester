@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>DIME.MqttLoadTester</AssemblyName>
+        <RootNamespace>DIME.MqttLoadTester</RootNamespace>
+        <PackageId>DIME.MqttLoadTester</PackageId>
+        <Authors>DIME.MqttLoadTester</Authors>
+        <Company>DIME.MqttLoadTester</Company>
+        <Product>DIME.MqttLoadTester</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MQTTnet" Version="5.0.0.1405" />
+      <PackageReference Include="PowerArgs" Version="4.0.3" />
+    </ItemGroup>
+
+</Project>
